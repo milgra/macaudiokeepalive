@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336F744D1E07E136009BCC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F744C1E07E136009BCC1B /* AppDelegate.m */; };
+		336F74501E07E136009BCC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F744F1E07E136009BCC1B /* main.m */; };
+		336F74521E07E136009BCC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336F74511E07E136009BCC1B /* Assets.xcassets */; };
+		336F74551E07E136009BCC1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336F74531E07E136009BCC1B /* MainMenu.xib */; };
+		336F745E1E07E16E009BCC1B /* mak.png in Resources */ = {isa = PBXBuildFile; fileRef = 336F745C1E07E16E009BCC1B /* mak.png */; };
+		336F745F1E07E16E009BCC1B /* mak2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 336F745D1E07E16E009BCC1B /* mak2x.png */; };
+		336F74621E07E4CC009BCC1B /* WavePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F74611E07E4CC009BCC1B /* WavePlayer.m */; };
+		336F74651E07E4F6009BCC1B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336F74641E07E4F6009BCC1B /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS Audio Keepalive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336F744B1E07E136009BCC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		336F744C1E07E136009BCC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		336F744F1E07E136009BCC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		336F74511E07E136009BCC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336F74541E07E136009BCC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		336F74561E07E136009BCC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336F745C1E07E16E009BCC1B /* mak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mak.png; sourceTree = "<group>"; };
+		336F745D1E07E16E009BCC1B /* mak2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mak2x.png; sourceTree = "<group>"; };
+		336F74601E07E4CC009BCC1B /* WavePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePlayer.h; sourceTree = "<group>"; };
+		336F74611E07E4CC009BCC1B /* WavePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePlayer.m; sourceTree = "<group>"; };
+		336F74641E07E4F6009BCC1B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336F74451E07E136009BCC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F74651E07E4F6009BCC1B /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336F743F1E07E136009BCC1B = {
+			isa = PBXGroup;
+			children = (
+				336F744A1E07E136009BCC1B /* MacOS Audio Keepalive */,
+				336F74491E07E136009BCC1B /* Products */,
+				336F74631E07E4F6009BCC1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		336F74491E07E136009BCC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336F744A1E07E136009BCC1B /* MacOS Audio Keepalive */ = {
+			isa = PBXGroup;
+			children = (
+				336F745C1E07E16E009BCC1B /* mak.png */,
+				336F745D1E07E16E009BCC1B /* mak2x.png */,
+				336F74601E07E4CC009BCC1B /* WavePlayer.h */,
+				336F74611E07E4CC009BCC1B /* WavePlayer.m */,
+				336F744B1E07E136009BCC1B /* AppDelegate.h */,
+				336F744C1E07E136009BCC1B /* AppDelegate.m */,
+				336F74511E07E136009BCC1B /* Assets.xcassets */,
+				336F74531E07E136009BCC1B /* MainMenu.xib */,
+				336F74561E07E136009BCC1B /* Info.plist */,
+				336F744E1E07E136009BCC1B /* Supporting Files */,
+			);
+			path = "MacOS Audio Keepalive";
+			sourceTree = "<group>";
+		};
+		336F744E1E07E136009BCC1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				336F744F1E07E136009BCC1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		336F74631E07E4F6009BCC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				336F74641E07E4F6009BCC1B /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336F74471E07E136009BCC1B /* MacOS Audio Keepalive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "MacOS Audio Keepalive" */;
+			buildPhases = (
+				336F74441E07E136009BCC1B /* Sources */,
+				336F74451E07E136009BCC1B /* Frameworks */,
+				336F74461E07E136009BCC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacOS Audio Keepalive";
+			productName = "MacOS Audio Keepalive";
+			productReference = 336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336F74401E07E136009BCC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Milan Toth";
+				TargetAttributes = {
+					336F74471E07E136009BCC1B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 336F74431E07E136009BCC1B /* Build configuration list for PBXProject "MacOS Audio Keepalive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336F743F1E07E136009BCC1B;
+			productRefGroup = 336F74491E07E136009BCC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336F74471E07E136009BCC1B /* MacOS Audio Keepalive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336F74461E07E136009BCC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F745E1E07E16E009BCC1B /* mak.png in Resources */,
+				336F74521E07E136009BCC1B /* Assets.xcassets in Resources */,
+				336F74551E07E136009BCC1B /* MainMenu.xib in Resources */,
+				336F745F1E07E16E009BCC1B /* mak2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336F74441E07E136009BCC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336F74621E07E4CC009BCC1B /* WavePlayer.m in Sources */,
+				336F74501E07E136009BCC1B /* main.m in Sources */,
+				336F744D1E07E136009BCC1B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		336F74531E07E136009BCC1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336F74541E07E136009BCC1B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336F74571E07E136009BCC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		336F74581E07E136009BCC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		336F745A1E07E136009BCC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milgra.MacOS-Audio-Keepalive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		336F745B1E07E136009BCC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milgra.MacOS-Audio-Keepalive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336F74431E07E136009BCC1B /* Build configuration list for PBXProject "MacOS Audio Keepalive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F74571E07E136009BCC1B /* Debug */,
+				336F74581E07E136009BCC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "MacOS Audio Keepalive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336F745A1E07E136009BCC1B /* Debug */,
+				336F745B1E07E136009BCC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336F74401E07E136009BCC1B /* Project object */;
+}
