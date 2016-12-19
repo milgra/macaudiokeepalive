@@ -21,9 +21,7 @@
         statusItem = [ [ NSStatusBar systemStatusBar ] statusItemWithLength : NSVariableStatusItemLength ];
         [ statusItem setToolTip : @"Optical Audio Port Keepalive" ];
         [ statusItem setMenu : menu ];
-        
-        if ( [ [ NSScreen mainScreen ] backingScaleFactor] == 1.0 ) [ statusItem setImage : [ NSImage imageNamed : @"mak.png" ] ];
-        else [ statusItem setImage : [ NSImage imageNamed : @"mak2x.png" ] ];
+        [ statusItem setImage : [ NSImage imageNamed : @"mak.png" ] ];
         [ [ statusItem image ] setTemplate : YES ];
         
         player = [[WavePlayer alloc] init ];

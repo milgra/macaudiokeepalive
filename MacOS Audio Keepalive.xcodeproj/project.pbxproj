@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3319A9EA1E085353005DB79C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3319A9E81E085353005DB79C /* LICENSE */; };
+		3319A9EB1E085353005DB79C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3319A9E91E085353005DB79C /* README.md */; };
 		336F744D1E07E136009BCC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F744C1E07E136009BCC1B /* AppDelegate.m */; };
 		336F74501E07E136009BCC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F744F1E07E136009BCC1B /* main.m */; };
 		336F74521E07E136009BCC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336F74511E07E136009BCC1B /* Assets.xcassets */; };
 		336F74551E07E136009BCC1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336F74531E07E136009BCC1B /* MainMenu.xib */; };
 		336F745E1E07E16E009BCC1B /* mak.png in Resources */ = {isa = PBXBuildFile; fileRef = 336F745C1E07E16E009BCC1B /* mak.png */; };
-		336F745F1E07E16E009BCC1B /* mak2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 336F745D1E07E16E009BCC1B /* mak2x.png */; };
 		336F74621E07E4CC009BCC1B /* WavePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F74611E07E4CC009BCC1B /* WavePlayer.m */; };
 		336F74651E07E4F6009BCC1B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336F74641E07E4F6009BCC1B /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3319A9E81E085353005DB79C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		3319A9E91E085353005DB79C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS Audio Keepalive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		336F744B1E07E136009BCC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		336F744C1E07E136009BCC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,7 +29,6 @@
 		336F74541E07E136009BCC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		336F74561E07E136009BCC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		336F745C1E07E16E009BCC1B /* mak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mak.png; sourceTree = "<group>"; };
-		336F745D1E07E16E009BCC1B /* mak2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mak2x.png; sourceTree = "<group>"; };
 		336F74601E07E4CC009BCC1B /* WavePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePlayer.h; sourceTree = "<group>"; };
 		336F74611E07E4CC009BCC1B /* WavePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePlayer.m; sourceTree = "<group>"; };
 		336F74641E07E4F6009BCC1B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -65,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				336F745C1E07E16E009BCC1B /* mak.png */,
-				336F745D1E07E16E009BCC1B /* mak2x.png */,
 				336F74601E07E4CC009BCC1B /* WavePlayer.h */,
 				336F74611E07E4CC009BCC1B /* WavePlayer.m */,
 				336F744B1E07E136009BCC1B /* AppDelegate.h */,
@@ -81,6 +82,8 @@
 		336F744E1E07E136009BCC1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3319A9E81E085353005DB79C /* LICENSE */,
+				3319A9E91E085353005DB79C /* README.md */,
 				336F744F1E07E136009BCC1B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,7 +158,7 @@
 				336F745E1E07E16E009BCC1B /* mak.png in Resources */,
 				336F74521E07E136009BCC1B /* Assets.xcassets in Resources */,
 				336F74551E07E136009BCC1B /* MainMenu.xib in Resources */,
-				336F745F1E07E16E009BCC1B /* mak2x.png in Resources */,
+				3319A9EA1E085353005DB79C /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +171,7 @@
 			files = (
 				336F74621E07E4CC009BCC1B /* WavePlayer.m in Sources */,
 				336F74501E07E136009BCC1B /* main.m in Sources */,
+				3319A9EB1E085353005DB79C /* README.md in Sources */,
 				336F744D1E07E136009BCC1B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
