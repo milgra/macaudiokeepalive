@@ -14,7 +14,7 @@
     - ( void ) applicationDidFinishLaunching : ( NSNotification*) theNotification
     {
         NSMenu *menu = [ [ NSMenu alloc ] init ];
-        [ menu addItemWithTitle : @"Keepalive is running" action : nil keyEquivalent : @"" ];
+        [ menu addItemWithTitle : @"Running" action : nil keyEquivalent : @"" ];
         [ menu addItem : [ NSMenuItem separatorItem ] ]; // A thin grey line
         [ menu addItemWithTitle : @"Quit" action : @selector(terminate:) keyEquivalent : @"" ];
 
