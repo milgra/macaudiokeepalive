@@ -13,9 +13,10 @@
 		336F74501E07E136009BCC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F744F1E07E136009BCC1B /* main.m */; };
 		336F74521E07E136009BCC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336F74511E07E136009BCC1B /* Assets.xcassets */; };
 		336F74551E07E136009BCC1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336F74531E07E136009BCC1B /* MainMenu.xib */; };
-		336F745E1E07E16E009BCC1B /* mak.png in Resources */ = {isa = PBXBuildFile; fileRef = 336F745C1E07E16E009BCC1B /* mak.png */; };
 		336F74621E07E4CC009BCC1B /* WavePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F74611E07E4CC009BCC1B /* WavePlayer.m */; };
 		336F74651E07E4F6009BCC1B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336F74641E07E4F6009BCC1B /* CoreAudio.framework */; };
+		33E521FF1FC61611004927FE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E521FD1FC61611004927FE /* icon.png */; };
+		33E522001FC61611004927FE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E521FE1FC61611004927FE /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,11 @@
 		336F74511E07E136009BCC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336F74541E07E136009BCC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		336F74561E07E136009BCC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		336F745C1E07E16E009BCC1B /* mak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mak.png; sourceTree = "<group>"; };
 		336F74601E07E4CC009BCC1B /* WavePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePlayer.h; sourceTree = "<group>"; };
 		336F74611E07E4CC009BCC1B /* WavePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePlayer.m; sourceTree = "<group>"; };
 		336F74641E07E4F6009BCC1B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		33E521FD1FC61611004927FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		33E521FE1FC61611004927FE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +68,10 @@
 		336F744A1E07E136009BCC1B /* MacOS Audio Keepalive */ = {
 			isa = PBXGroup;
 			children = (
-				336F745C1E07E16E009BCC1B /* mak.png */,
 				336F74601E07E4CC009BCC1B /* WavePlayer.h */,
 				336F74611E07E4CC009BCC1B /* WavePlayer.m */,
 				336F744B1E07E136009BCC1B /* AppDelegate.h */,
 				336F744C1E07E136009BCC1B /* AppDelegate.m */,
-				336F74511E07E136009BCC1B /* Assets.xcassets */,
-				336F74531E07E136009BCC1B /* MainMenu.xib */,
-				336F74561E07E136009BCC1B /* Info.plist */,
 				336F744E1E07E136009BCC1B /* Supporting Files */,
 			);
 			path = "MacOS Audio Keepalive";
@@ -82,6 +80,11 @@
 		336F744E1E07E136009BCC1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33E521FD1FC61611004927FE /* icon.png */,
+				33E521FE1FC61611004927FE /* icon@2x.png */,
+				336F74511E07E136009BCC1B /* Assets.xcassets */,
+				336F74531E07E136009BCC1B /* MainMenu.xib */,
+				336F74561E07E136009BCC1B /* Info.plist */,
 				3319A9E81E085353005DB79C /* LICENSE */,
 				3319A9E91E085353005DB79C /* README.md */,
 				336F744F1E07E136009BCC1B /* main.m */,
@@ -128,7 +131,8 @@
 				TargetAttributes = {
 					336F74471E07E136009BCC1B = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = KAX983KY52;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -160,10 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				336F745E1E07E16E009BCC1B /* mak.png in Resources */,
+				33E521FF1FC61611004927FE /* icon.png in Resources */,
 				336F74521E07E136009BCC1B /* Assets.xcassets in Resources */,
 				336F74551E07E136009BCC1B /* MainMenu.xib in Resources */,
 				3319A9EA1E085353005DB79C /* LICENSE in Resources */,
+				33E522001FC61611004927FE /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +292,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KAX983KY52;
 				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -303,9 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KAX983KY52;
 				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
