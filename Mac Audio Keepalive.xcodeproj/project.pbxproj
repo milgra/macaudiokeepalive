@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		3319A9E81E085353005DB79C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		3319A9E91E085353005DB79C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS Audio Keepalive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336F74481E07E136009BCC1B /* Mac Audio Keepalive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Audio Keepalive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		336F744B1E07E136009BCC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		336F744C1E07E136009BCC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		336F744F1E07E136009BCC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		336F743F1E07E136009BCC1B = {
 			isa = PBXGroup;
 			children = (
-				336F744A1E07E136009BCC1B /* MacOS Audio Keepalive */,
+				336F744A1E07E136009BCC1B /* Mac Audio Keepalive */,
 				336F74491E07E136009BCC1B /* Products */,
 				336F74631E07E4F6009BCC1B /* Frameworks */,
 			);
@@ -60,12 +60,12 @@
 		336F74491E07E136009BCC1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */,
+				336F74481E07E136009BCC1B /* Mac Audio Keepalive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		336F744A1E07E136009BCC1B /* MacOS Audio Keepalive */ = {
+		336F744A1E07E136009BCC1B /* Mac Audio Keepalive */ = {
 			isa = PBXGroup;
 			children = (
 				336F74601E07E4CC009BCC1B /* WavePlayer.h */,
@@ -74,7 +74,7 @@
 				336F744C1E07E136009BCC1B /* AppDelegate.m */,
 				336F744E1E07E136009BCC1B /* Supporting Files */,
 			);
-			path = "MacOS Audio Keepalive";
+			path = "Mac Audio Keepalive";
 			sourceTree = "<group>";
 		};
 		336F744E1E07E136009BCC1B /* Supporting Files */ = {
@@ -103,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		336F74471E07E136009BCC1B /* MacOS Audio Keepalive */ = {
+		336F74471E07E136009BCC1B /* Mac Audio Keepalive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "MacOS Audio Keepalive" */;
+			buildConfigurationList = 336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "Mac Audio Keepalive" */;
 			buildPhases = (
 				336F74441E07E136009BCC1B /* Sources */,
 				336F74451E07E136009BCC1B /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = "MacOS Audio Keepalive";
+			name = "Mac Audio Keepalive";
 			productName = "MacOS Audio Keepalive";
-			productReference = 336F74481E07E136009BCC1B /* MacOS Audio Keepalive.app */;
+			productReference = 336F74481E07E136009BCC1B /* Mac Audio Keepalive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 336F74431E07E136009BCC1B /* Build configuration list for PBXProject "MacOS Audio Keepalive" */;
+			buildConfigurationList = 336F74431E07E136009BCC1B /* Build configuration list for PBXProject "Mac Audio Keepalive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				336F74471E07E136009BCC1B /* MacOS Audio Keepalive */,
+				336F74471E07E136009BCC1B /* Mac Audio Keepalive */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KAX983KY52;
-				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
+				INFOPLIST_FILE = "Mac Audio Keepalive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.milgra.oapka;
@@ -311,7 +311,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KAX983KY52;
-				INFOPLIST_FILE = "MacOS Audio Keepalive/Info.plist";
+				INFOPLIST_FILE = "Mac Audio Keepalive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.milgra.oapka;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		336F74431E07E136009BCC1B /* Build configuration list for PBXProject "MacOS Audio Keepalive" */ = {
+		336F74431E07E136009BCC1B /* Build configuration list for PBXProject "Mac Audio Keepalive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				336F74571E07E136009BCC1B /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "MacOS Audio Keepalive" */ = {
+		336F74591E07E136009BCC1B /* Build configuration list for PBXNativeTarget "Mac Audio Keepalive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				336F745A1E07E136009BCC1B /* Debug */,
